@@ -2,6 +2,8 @@
 
 Dockerized scCB2
 
+## Description / References
+
 CB2 is a cluster-based approach for distinguishing true cells from background barcodes in droplet-based single cell RNA-seq experiments (especially for 10X Chromium output), while scCB2 is its corresponding R package.
 
 - GitHub: https://github.com/zijianni/scCB2
@@ -10,7 +12,7 @@ CB2 is a cluster-based approach for distinguishing true cells from background ba
 
 >Ni Z, Chen S, Brown J, Kendziorski C (2020). “CB2 improves power of cell detection in droplet-based single-cell RNA sequencing data.” Genome Biology. [doi: 10.1186/s13059-020-02054-8](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-020-02054-8).
 
-# Build / Test / Push
+## Build / Test / Push
 
 Bulid a docker image:
 
