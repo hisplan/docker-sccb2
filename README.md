@@ -23,13 +23,13 @@ $ ./build.sh
 Run a simple smoke test which loads the scCB2 library and displays the version number:
 
 ```bash
-$ ./test.sh
+$ ./run-smoke-test.sh
 
 [1] "scCB2 v1.2.0"
 ```
 
-Push the image to Docker Hub:
+Push the container image to your docker registry:
 
 ```bash
-$ ./push.sh
+$ ./package.sh
 ```

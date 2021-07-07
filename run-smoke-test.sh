@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source version.sh
+source config.sh
 
 docker run -it --rm \
     --entrypoint Rscript \
