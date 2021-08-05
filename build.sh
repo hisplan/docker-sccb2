@@ -1,5 +1,5 @@
-#!/bin/bash
+#!/bin/bash -e
 
 source config.sh
 
-docker build -t ${image_name}:${version} .
+docker build --progress=plain -t ${image_name}:${version} .
